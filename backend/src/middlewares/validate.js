@@ -9,5 +9,5 @@ export function validate(schema) {
         }
         req.validated = parsed.data;
         next();
-    }
+    };
 }
